@@ -67,6 +67,23 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.7.14</version>
             </plugin>
+            <plugin>
+                <groupId>org.web3j</groupId>
+                <artifactId>web3j-maven-plugin</artifactId>
+                <version>4.8.7</version> <!-- 替换为最新版本 -->
+                <configuration>
+                    <packageName>com.example.contract.abi</packageName>
+                    <abiSourceFiles>
+                        <directory>src/main/resources</directory>
+                        <includes>
+                            <include>abi/*.json</include>
+                        </includes>
+                    </abiSourceFiles>
+                    <outputDirectory>
+                        <java>src/main/java</java>
+                    </outputDirectory>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>
