@@ -8,7 +8,7 @@ spring:
     active: swap
 
 app:
-  apiKey: 3QNA6H5133N8KS1KBZXUK6D2S4CYXQZA2Y
+  apiKey:
   http:
     proxy:
       enable: true
