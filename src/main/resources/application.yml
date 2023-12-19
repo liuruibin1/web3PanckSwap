@@ -1,0 +1,16 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: web3PanckSwap
+  profiles:
+    active: swap
+
+app:
+  apiKey: 3QNA6H5133N8KS1KBZXUK6D2S4CYXQZA2Y
+  http:
+    proxy:
+      enable: true
+      host: localhost
+      port: 7890
