@@ -38,7 +38,7 @@ You can check the corresponding dependencies on [Maven Repository](https://mvnre
                     </outputDirectory>
                 </configuration>
             </plugin>
-        ```
+```
 
 ## 3.RPC Explanation
     <h2>Using free BNB network RPC endpoints:</h2>
