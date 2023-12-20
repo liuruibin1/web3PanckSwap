@@ -21,6 +21,10 @@ You can check the corresponding dependencies on [Maven Repository](https://mvnre
         
 ## 2.Compile ABI to Generate Java Code
 
+<h2>maven command:</h2>
+
+<p>mvn web3j:generate-sources</p>
+
 ```xml
          <plugin>
                 <groupId>org.web3j</groupId>
