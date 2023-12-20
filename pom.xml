@@ -72,7 +72,7 @@
                 <artifactId>web3j-maven-plugin</artifactId>
                 <version>4.8.7</version> <!-- 替换为最新版本 -->
                 <configuration>
-                    <packageName>com.example.contract.abi</packageName>
+                    <packageName>com.panck.swap.abi</packageName>
                     <abiSourceFiles>
                         <directory>src/main/resources</directory>
                         <includes>
