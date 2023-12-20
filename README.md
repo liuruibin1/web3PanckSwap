@@ -60,6 +60,9 @@ This is an interface to request PanckSwap for querying token-to-USDT exchange pr
 <h2>Demo</h2>
 ![image](https://github.com/liuruibin1/web3PanckSwap/assets/68451339/34b5410e-3436-4832-b485-ef58a6d4c276)
 
+<h3>Corresponding effect</h3>
+![image](https://github.com/liuruibin1/web3PanckSwap/assets/68451339/1f45baa8-2750-4a25-8fd3-2cb225402491)
+
 <h2>Application Configuration</h2>
 
 ```yml
